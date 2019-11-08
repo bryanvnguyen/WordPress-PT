@@ -7,17 +7,19 @@ Time spent: 8 hours spent in total
 ## Pentesting Report
 
 <img src="my_gif_walkthrough_url" width="800">
-1. (Required) Vulnerability Name or ID
+1. CVE-2015-5622 - Cross-Site Scripting
   - [ ] Summary: Once a user's comment is authenticated by the admin, the user can then insert XSS via the reply box.
     - Vulnerability types: Cross-site scripting
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: 
+  1. Post a comment and wait for Admin's approval.
+  2. Once authenticated, user can then insert XSS into a reply that will execute upon loading the page.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
+    - [Link 1](https://core.trac.wordpress.org/changeset/33359)
+1. CVE-2017-9061 - Error in Upload when file's too large
+  - [ ] Summary: A XSS vulnerability exists when attempting to upload very large files, because the error message does not properly restrict presentation of the filename.
     - Vulnerability types:
     - Tested in version:
     - Fixed in version: 
