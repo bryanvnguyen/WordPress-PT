@@ -6,7 +6,7 @@ Time spent: 8 hours spent in total
 
 ## Pentesting Report
 
-1. CVE-2015-5622 - Cross-Site Scripting
+# 1. CVE-2015-5622 - Cross-Site Scripting
   - [ ] Summary: Once a user's comment is authenticated by the admin, the user can then insert XSS via the reply box.
     - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.2
@@ -24,7 +24,7 @@ Time spent: 8 hours spent in total
  
     
 
-2. CVE-2017-9061 - Error in Upload when file's too large
+# 2. CVE-2017-9061 - Error in Upload when file's too large
   - [ ] Summary: A XSS vulnerability exists when attempting to upload very large files, because the error message does not properly restrict presentation of the filename.
     - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.7.2
@@ -43,7 +43,7 @@ Time spent: 8 hours spent in total
     
     
 
-3. CVE-2018-6390 - Denial Of Service Overflow
+# 3. CVE-2018-6390 - Denial Of Service Overflow
   - [ ] Summary: Exploiting a flaw in WordPress's loading script causes a denial of service by overloading the website with requests.
     - Vulnerability types: Denial of Service Overflow
     - Tested in version: 4.2
@@ -57,11 +57,11 @@ Time spent: 8 hours spent in total
 	3. WPDistillery.vm fails to load due to the Denial of Service attack. Only upon shutting down the VM and restarting 		will the page be accessible.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/DOS/Screen%20Shot%202019-11-07%20at%207.19.07%20PM.png" width="800">
   - [ ] Affected source code:
-    - [Link 1]( https://www.exploit-db.com/exploits/43968) <br />
+    - [Link 1]( https://www.exploit-db.com/exploits/43968) <br /><br />
     
 
 
-4. (Optional) CVE 2015-5714 - Shortcode Tags
+# 4. (Optional) CVE 2015-5714 - Shortcode Tags
   - [ ] Summary: Allows for injection of arbitrary web script or HTML by leveraging the mishandling of unclosed HTML elements during processing of shortcode tags.
     - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.2
@@ -76,11 +76,11 @@ Time spent: 8 hours spent in total
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Shortcode%20Tags/Screen%20Shot%202019-11-07%20at%2011.21.42%20PM.png" width="800">
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Shortcode%20Tags/Screen%20Shot%202019-11-07%20at%2011.21.49%20PM.png" width="800">
   - [ ] Affected source code:
-    - [Link 1]( https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8) <br />
+    - [Link 1]( https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8) <br /><br />
     
   
     
-5. (Optional) CVE 2017-6817 - Authenticated XSS in Youtube URL Embeds
+# 5. (Optional) CVE 2017-6817 - Authenticated XSS in Youtube URL Embeds
   - [ ] Summary: Authenticated XSS can be inserted into a YouTube URL embed code.
     - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.2
@@ -106,8 +106,7 @@ https://github.com/quitten/doser.py
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
-
-GIFs created with [LiceCap](http://www.cockos.com/licecap/).
+- [Exploit Database](https://www.exploit-db.com/exploits/)
 
 
 ## License
