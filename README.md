@@ -51,7 +51,7 @@ Time spent: 8 hours spent in total
   - [ ] GIF Walkthrough: 
   <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: <br />
-	1. Retrieve doser.py script from the GitHub repository: https://github.com/quitten/doser.py
+	1. Retrieve doser.py script from the GitHub repository: https://github.com/quitten/doser.py <br />
 	2. Open terminal and execute the script to flood WPDistillery.vm with GET requests.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/DOS/Screen%20Shot%202019-11-07%20at%207.19.37%20PM.png" width="800">
 	3. WPDistillery.vm fails to load due to the Denial of Service attack. Only upon shutting down the VM and restarting 		will the page be accessible.
@@ -69,7 +69,7 @@ Time spent: 8 hours spent in total
   - [ ] GIF Walkthrough:
   <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: <br />
-	1. Create a new post in Text mode.
+	1. Create a new post in Text mode. <br />
 	2. Insert a malicious script and post.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/DOS/Screen%20Shot%202019-11-07%20at%207.19.07%20PM.png" width="800">
 	3. The code will pop up when a user hovers over.
