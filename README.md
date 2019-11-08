@@ -20,7 +20,7 @@ Time spent: 8 hours spent in total
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%209.49.35%20PM.png" width="800">
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%209.57.17%20PM.png" width="800">
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/changeset/33359) <br />
+    - [Link 1](https://core.trac.wordpress.org/changeset/33359) <br /><br />
  
     
 
@@ -39,7 +39,7 @@ Time spent: 8 hours spent in total
 	3. Open your browser to http://wpdistillery.vm/wp-admin/media-new.php and upload the file.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/File%20too%20large/Screen%20Shot%202019-11-08%20at%2012.24.14%20AM.png" width="800">
   - [ ] Affected source code:
-    - [Link 1]( https://hackerone.com/reports/203515) <br />
+    - [Link 1]( https://hackerone.com/reports/203515) <br /><br />
     
     
 
