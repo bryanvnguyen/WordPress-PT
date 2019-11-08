@@ -1,5 +1,3 @@
-# WordPress-PT
-WordPress Pentesting with Kali
 # Project 7 - WordPress Pentesting
 
 Time spent: 8 hours spent in total
