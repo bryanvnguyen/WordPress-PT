@@ -21,6 +21,7 @@ Time spent: 8 hours spent in total
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%209.57.17%20PM.png" width="800">
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/changeset/33359)
+    <br />
  
     
 
@@ -31,7 +32,7 @@ Time spent: 8 hours spent in total
     - Fixed in version: 4.7.5
   - [ ] GIF Walkthrough: : 
   <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: <br />
 	1. Create a large dummy file in terminal.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/File%20too%20large/Screen%20Shot%202019-11-08%20at%2012.26.35%20AM.png" width="800">
 	2. Rename the file as a picture and insert the script before the extension.
@@ -41,7 +42,7 @@ Time spent: 8 hours spent in total
   - [ ] Affected source code:
     - [Link 1]( https://hackerone.com/reports/203515)
     
-    
+    <br />
 
 3. CVE-2018-6390 - Denial Of Service Overflow
   - [ ] Summary: Exploiting a flaw in WordPress's loading script causes a denial of service by overloading the website with requests.
@@ -59,7 +60,7 @@ Time spent: 8 hours spent in total
   - [ ] Affected source code:
     - [Link 1]( https://www.exploit-db.com/exploits/43968)
     
-
+<br />
 
 4. (Optional) CVE 2015-5714 - Shortcode Tags
   - [ ] Summary: Allows for injection of arbitrary web script or HTML by leveraging the mishandling of unclosed HTML elements during processing of shortcode tags.
@@ -68,7 +69,7 @@ Time spent: 8 hours spent in total
     - Fixed in version: 4.3.1
   - [ ] GIF Walkthrough:
   <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: <br />
 	1. Create a new post in Text mode.
 	2. Insert a malicious script and post.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/DOS/Screen%20Shot%202019-11-07%20at%207.19.07%20PM.png" width="800">
@@ -78,6 +79,7 @@ Time spent: 8 hours spent in total
   - [ ] Affected source code:
     - [Link 1]( https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
     
+    <br />
     
 5. (Optional) CVE 2017-6817 - Authenticated XSS in Youtube URL Embeds
   - [ ] Summary: Authenticated XSS can be inserted into a YouTube URL embed code.
@@ -86,7 +88,7 @@ Time spent: 8 hours spent in total
     - Fixed in version: 4.7.3
   - [ ] GIF Walkthrough: 
   <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: <br />
 	1. In a post or comment, paste a YouTube URL with an embed code.
 	[embed src='https://www.youtube.com/embed/du-TY1GUFGk'][/embed]
 	2. Insert an XSS script before before the end of the code.
