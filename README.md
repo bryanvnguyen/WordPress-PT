@@ -20,8 +20,7 @@ Time spent: 8 hours spent in total
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%209.49.35%20PM.png" width="800">
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%209.57.17%20PM.png" width="800">
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/changeset/33359)
-    <br />
+    - [Link 1](https://core.trac.wordpress.org/changeset/33359) <br />
  
     
 
@@ -40,9 +39,9 @@ Time spent: 8 hours spent in total
 	3. Open your browser to http://wpdistillery.vm/wp-admin/media-new.php and upload the file.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/File%20too%20large/Screen%20Shot%202019-11-08%20at%2012.24.14%20AM.png" width="800">
   - [ ] Affected source code:
-    - [Link 1]( https://hackerone.com/reports/203515)
+    - [Link 1]( https://hackerone.com/reports/203515) <br />
     
-    <br />
+    
 
 3. CVE-2018-6390 - Denial Of Service Overflow
   - [ ] Summary: Exploiting a flaw in WordPress's loading script causes a denial of service by overloading the website with requests.
@@ -51,16 +50,16 @@ Time spent: 8 hours spent in total
     - Fixed in version: 4.9.3
   - [ ] GIF Walkthrough: 
   <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: <br />
 	1. Retrieve doser.py script from the GitHub repository: https://github.com/quitten/doser.py
 	2. Open terminal and execute the script to flood WPDistillery.vm with GET requests.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/DOS/Screen%20Shot%202019-11-07%20at%207.19.37%20PM.png" width="800">
 	3. WPDistillery.vm fails to load due to the Denial of Service attack. Only upon shutting down the VM and restarting 		will the page be accessible.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/DOS/Screen%20Shot%202019-11-07%20at%207.19.07%20PM.png" width="800">
   - [ ] Affected source code:
-    - [Link 1]( https://www.exploit-db.com/exploits/43968)
+    - [Link 1]( https://www.exploit-db.com/exploits/43968) <br />
     
-<br />
+
 
 4. (Optional) CVE 2015-5714 - Shortcode Tags
   - [ ] Summary: Allows for injection of arbitrary web script or HTML by leveraging the mishandling of unclosed HTML elements during processing of shortcode tags.
@@ -77,9 +76,9 @@ Time spent: 8 hours spent in total
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Shortcode%20Tags/Screen%20Shot%202019-11-07%20at%2011.21.42%20PM.png" width="800">
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Shortcode%20Tags/Screen%20Shot%202019-11-07%20at%2011.21.49%20PM.png" width="800">
   - [ ] Affected source code:
-    - [Link 1]( https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
+    - [Link 1]( https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8) <br />
     
-    <br />
+  
     
 5. (Optional) CVE 2017-6817 - Authenticated XSS in Youtube URL Embeds
   - [ ] Summary: Authenticated XSS can be inserted into a YouTube URL embed code.
@@ -110,9 +109,6 @@ https://github.com/quitten/doser.py
 
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
-## Notes
-
-Learning Github formatting
 
 ## License
 
