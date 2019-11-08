@@ -6,7 +6,6 @@ Time spent: 8 hours spent in total
 
 ## Pentesting Report
 
-<img src="my_gif_walkthrough_url" width="800">
 1. CVE-2015-5622 - Cross-Site Scripting
   - [ ] Summary: Once a user's comment is authenticated by the admin, the user can then insert XSS via the reply box.
     - Vulnerability types: Cross Site Scripting
@@ -14,10 +13,11 @@ Time spent: 8 hours spent in total
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: 
-1. Post a comment and wait for Admin's approval.
-2. Once authenticated, user can then insert XSS into a reply that will execute upon loading the page.
+	1. Post a comment and wait for Admin's approval.
+	2. Once authenticated, user can then insert XSS into a reply that will execute upon loading the page.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/changeset/33359)
+    
 
 2. CVE-2017-9061 - Error in Upload when file's too large
   - [ ] Summary: A XSS vulnerability exists when attempting to upload very large files, because the error message does not properly restrict presentation of the filename.
@@ -31,6 +31,7 @@ Time spent: 8 hours spent in total
 	3. Open your browser to http://wpdistillery.vm/wp-admin/media-new.php and upload the file.
   - [ ] Affected source code:
     - [Link 1]( https://hackerone.com/reports/203515)
+    
 
 3. CVE-2018-6390 - Denial Of Service Overflow
   - [ ] Summary: Exploiting a flaw in WordPress's loading script causes a denial of service by overloading the website with requests.
@@ -39,12 +40,13 @@ Time spent: 8 hours spent in total
     - Fixed in version: 4.9.3
   - [ ] GIF Walkthrough: <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: 
-1. Access WPDistillery.vm to ensure it's working.
-2. Retrieve doser.py script from the GitHub repository: https://github.com/quitten/doser.py
-3. Open terminal and execute the script to flood WPDistillery.vm with GET requests.
-4. WPDistillery.vm fails to load due to the Denial of Service attack. Only upon shutting down the VM and restarting will the page be accessible.
+	1. Access WPDistillery.vm to ensure it's working.
+	2. Retrieve doser.py script from the GitHub repository: https://github.com/quitten/doser.py
+	3. Open terminal and execute the script to flood WPDistillery.vm with GET requests.
+	4. WPDistillery.vm fails to load due to the Denial of Service attack. Only upon shutting down the VM and restarting 		will the page be accessible.
   - [ ] Affected source code:
     - [Link 1]( https://www.exploit-db.com/exploits/43968)
+    
 
 4. (Optional) CVE 2015-5714 - Shortcode Tags
   - [ ] Summary: Allows for injection of arbitrary web script or HTML by leveraging the mishandling of unclosed HTML elements during processing of shortcode tags.
@@ -53,23 +55,25 @@ Time spent: 8 hours spent in total
     - Fixed in version: 4.3.1
   - [ ] GIF Walkthrough: <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: 
-1. Create a new post in Text mode.
-2. Insert a malicious script and post.
-3. The code will pop up when a user hovers over.
+	1. Create a new post in Text mode.
+	2. Insert a malicious script and post.
+	3. The code will pop up when a user hovers over.
   - [ ] Affected source code:
     - [Link 1]( https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
-1. (Optional) CVE 2017-6817 - Authenticated XSS in Youtube URL Embeds
+    
+    
+5. (Optional) CVE 2017-6817 - Authenticated XSS in Youtube URL Embeds
   - [ ] Summary: Authenticated XSS can be inserted into a YouTube URL embed code.
     - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.2
     - Fixed in version: 4.7.3
   - [ ] GIF Walkthrough: <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: 
-1. In a post or comment, paste a YouTube URL with an embed code.
-[embed src='https://www.youtube.com/embed/du-TY1GUFGk'][/embed]
-2. Insert an XSS script before before the end of the code.
-[embed src='https://www.youtube.com/embed/du-TY1GUFGk\x3csvg onload=alert("hax")\x3e'][/embed]
-3. The script will load when viewing the post.
+	1. In a post or comment, paste a YouTube URL with an embed code.
+	[embed src='https://www.youtube.com/embed/du-TY1GUFGk'][/embed]
+	2. Insert an XSS script before before the end of the code.
+	[embed src='https://www.youtube.com/embed/du-TY1GUFGk\x3csvg onload=alert("hax")\x3e'][/embed]
+	3. The script will load when viewing the post.
   - [ ] Affected source code:
     - [Link 1]( https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8) 
 
