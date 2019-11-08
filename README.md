@@ -7,11 +7,11 @@ Time spent: 8 hours spent in total
 ## Pentesting Report
 
 1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+  - [ ] Summary: Once a user's comment is authenticated by the admin, the user can then insert XSS via the reply box.
+    - Vulnerability types: Cross-site scripting
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.3
+  - [ ] GIF Walkthrough: https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
