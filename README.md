@@ -21,7 +21,7 @@ Time spent: 8 hours spent in total
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%209.57.17%20PM.png" width="800">
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/changeset/33359)
-    \\
+ 
     
 
 2. CVE-2017-9061 - Error in Upload when file's too large
@@ -89,18 +89,17 @@ Time spent: 8 hours spent in total
   - [ ] Steps to recreate: 
 	1. In a post or comment, paste a YouTube URL with an embed code.
 	[embed src='https://www.youtube.com/embed/du-TY1GUFGk'][/embed]
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%2010.06.35%20PM.png" width="800">
 	2. Insert an XSS script before before the end of the code.
 	[embed src='https://www.youtube.com/embed/du-TY1GUFGk\x3csvg onload=alert("hax")\x3e'][/embed]
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%2010.06.35%20PM.png" width="800">
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Youtube%20Embeds/Screen%20Shot%202019-11-07%20at%2010.07.45%20PM.png" width="800">
 	3. The script will load when viewing the post.
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%2010.06.35%20PM.png" width="800">
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Youtube%20Embeds/Screen%20Shot%202019-11-07%20at%2010.08.22%20PM.png" width="800">
   - [ ] Affected source code:
     - [Link 1]( https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8) 
 
 ## Assets
 
-List any additional assets, such as scripts or files
+https://github.com/quitten/doser.py
 
 ## Resources
 
@@ -111,11 +110,11 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+Learning Github formatting
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [1999] [yis]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
