@@ -11,9 +11,11 @@ Time spent: 8 hours spent in total
     - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
+  - [ ] GIF Walkthrough: 
+  <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: 
 	1. Post a comment and wait for Admin's approval.
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%2010.06.35%20PM.png" width="800">
 	2. Once authenticated, user can then insert XSS into a reply that will execute upon loading the page.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/changeset/33359)
@@ -24,7 +26,8 @@ Time spent: 8 hours spent in total
     - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.7.2
     - Fixed in version: 4.7.5
-  - [ ] GIF Walkthrough: : <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
+  - [ ] GIF Walkthrough: : 
+  <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: 
 	1. Create a large dummy file in terminal.
 	2. Rename the file as a picture and insert the script before the extension.
@@ -38,7 +41,8 @@ Time spent: 8 hours spent in total
     - Vulnerability types: Denial of Service Overflow
     - Tested in version: 4.2
     - Fixed in version: 4.9.3
-  - [ ] GIF Walkthrough: <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
+  - [ ] GIF Walkthrough: 
+  <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: 
 	1. Access WPDistillery.vm to ensure it's working.
 	2. Retrieve doser.py script from the GitHub repository: https://github.com/quitten/doser.py
@@ -53,7 +57,8 @@ Time spent: 8 hours spent in total
     - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.2
     - Fixed in version: 4.3.1
-  - [ ] GIF Walkthrough: <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
+  - [ ] GIF Walkthrough:
+  <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: 
 	1. Create a new post in Text mode.
 	2. Insert a malicious script and post.
@@ -67,7 +72,8 @@ Time spent: 8 hours spent in total
     - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.2
     - Fixed in version: 4.7.3
-  - [ ] GIF Walkthrough: <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
+  - [ ] GIF Walkthrough: 
+  <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: 
 	1. In a post or comment, paste a YouTube URL with an embed code.
 	[embed src='https://www.youtube.com/embed/du-TY1GUFGk'][/embed]
