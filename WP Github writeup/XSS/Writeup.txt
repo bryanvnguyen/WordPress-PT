@@ -1,0 +1,18 @@
+CVE-2015-5622 - Cross-Site Scripting
+
+Summary: Once a user's comment is authenticated by the admin, the authenticated user can then inject XSS into the comment's reply.
+
+Vulnerability : Cross-Site Scripting (XSS)
+Tested in version: 4.2
+Fixed in version: 4.2.3
+
+
+Steps:
+
+1. Post a comment and wait for Admin's approval.
+
+2. Once authenticated, user can then insert XSS into a reply that will execute upon loading the page.
+
+Affected source code: https://core.trac.wordpress.org/changeset/33359
+
+Link: https://www.cvedetails.com/cve/CVE-2015-5622/

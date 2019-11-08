@@ -1,0 +1,26 @@
+CVE-2018-6390 - Denial Of Service Overflow
+
+
+Summary: Exploiting a flaw in WordPress's loading script causes a denial of service by overloading the website with requests.
+
+Vulnerability : Denial of Service Overflow
+Tested in version: 4.2
+Fixed in version: 4.9.3
+
+
+Steps:
+
+1. Access WPDistillery.vm to ensure it's working.
+
+2. Retrieve doser.py script from the GitHub repository: 
+https://github.com/quitten/doser.py
+
+3. Open terminal and execute the script to flood WPDistillery.vm with GET requests.
+
+4. WPDistillery.vm fails to load due to the Denial of Service attack. Only upon shutting down the VM and restarting will the page be accessible.
+
+
+
+Affected source code:
+
+Link: https://www.exploit-db.com/exploits/43968

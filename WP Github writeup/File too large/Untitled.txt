@@ -1,0 +1,21 @@
+CVE-2017-9061 - Error in Upload when file's too large
+
+
+
+Summary: A XSS vulnerability exists when attempting to upload very large files, because the error message does not properly restrict presentation of the filename.
+
+Vulnerability: Cross Site Scripting
+Tested in version: 4.7.2
+Fixed in version: 4.7.5
+
+Steps:
+
+1. Create a large dummy file in terminal.
+
+2. Rename the file as a picture and insert the malicious script before the extension.
+
+2. Open your browser to http://wpdistillery.vm/wp-admin/media-new.php and upload the file.
+
+Affected source code:
+
+Link: https://hackerone.com/reports/203515

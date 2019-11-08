@@ -1,0 +1,20 @@
+CVE 2015-5714 - Shortcode Tags
+
+
+Summary:
+
+Vulnerability: Cross Site Scripting
+Tested in version: 4.2
+Fixed in version: 4.3.1
+
+Steps:
+
+1. Create a new post in Text mode.
+
+2. Insert a malicious script and post.
+
+3. The code will pop up when a user hovers over.
+
+Affected source code:
+
+Link: https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8

