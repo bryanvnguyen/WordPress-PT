@@ -13,7 +13,7 @@ Time spent: 8 hours spent in total
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: 
   <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: <br />
 	1. Post a comment and wait for Admin's approval.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%209.37.59%20PM.png" width="800">
 	2. Once authenticated, user can then insert XSS into a reply that will execute upon loading the page.
