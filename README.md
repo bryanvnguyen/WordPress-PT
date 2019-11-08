@@ -22,6 +22,7 @@ Time spent: 8 hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/changeset/33359)
     
+    
 
 2. CVE-2017-9061 - Error in Upload when file's too large
   - [ ] Summary: A XSS vulnerability exists when attempting to upload very large files, because the error message does not properly restrict presentation of the filename.
@@ -32,13 +33,14 @@ Time spent: 8 hours spent in total
   <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: 
 	1. Create a large dummy file in terminal.
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%2010.06.35%20PM.png" width="800">
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/File%20too%20large/Screen%20Shot%202019-11-08%20at%2012.26.35%20AM.png" width="800">
 	2. Rename the file as a picture and insert the script before the extension.
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%2010.06.35%20PM.png" width="800">
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/File%20too%20large/Screen%20Shot%202019-11-08%20at%2012.24.07%20AM.png" width="800">
 	3. Open your browser to http://wpdistillery.vm/wp-admin/media-new.php and upload the file.
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%2010.06.35%20PM.png" width="800">
+	<img src="hhttps://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/File%20too%20large/Screen%20Shot%202019-11-08%20at%2012.24.14%20AM.png" width="800">
   - [ ] Affected source code:
     - [Link 1]( https://hackerone.com/reports/203515)
+    
     
 
 3. CVE-2018-6390 - Denial Of Service Overflow
