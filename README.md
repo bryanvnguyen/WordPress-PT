@@ -21,7 +21,7 @@ Time spent: 8 hours spent in total
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%209.57.17%20PM.png" width="800">
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/changeset/33359)
-    
+    \\
     
 
 2. CVE-2017-9061 - Error in Upload when file's too large
