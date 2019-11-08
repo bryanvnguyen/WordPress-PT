@@ -71,7 +71,7 @@ Time spent: 8 hours spent in total
   - [ ] Steps to recreate: <br />
 	1. Create a new post in Text mode. <br />
 	2. Insert a malicious script and post.
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/DOS/Screen%20Shot%202019-11-07%20at%207.19.07%20PM.png" width="800">
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Shortcode%20Tags/Screen%20Shot%202019-11-07%20at%2011.21.03%20PM.png">
 	3. The code will pop up when a user hovers over.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Shortcode%20Tags/Screen%20Shot%202019-11-07%20at%2011.21.42%20PM.png" width="800">
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Shortcode%20Tags/Screen%20Shot%202019-11-07%20at%2011.21.49%20PM.png" width="800">
