@@ -9,6 +9,7 @@ Time spent: 8 hours spent in total
 - VirtualBox
 - Kali Linux
 - WPDistillery
+- WPScan
 
 
 ## Pentesting Report
