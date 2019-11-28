@@ -62,7 +62,7 @@ Time spent: 8 hours spent in total
     
 
 
-# 4. (Optional) CVE 2015-5714 - Shortcode Tags
+# 4. CVE 2015-5714 - Shortcode Tags
   - [ ] Summary: Allows for injection of arbitrary web script or HTML by leveraging the mishandling of unclosed HTML elements during processing of shortcode tags.
     - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.2
@@ -79,7 +79,7 @@ Time spent: 8 hours spent in total
     
   
     
-# 5. (Optional) CVE 2017-6817 - Authenticated XSS in Youtube URL Embeds
+# 5. CVE 2017-6817 - Authenticated XSS in Youtube URL Embeds
   - [ ] Summary: Authenticated XSS can be inserted into a YouTube URL embed code.
     - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.2
