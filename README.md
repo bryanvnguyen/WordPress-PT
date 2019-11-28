@@ -13,10 +13,10 @@ Time spent: 8 hours spent in total
     - Fixed in version: 4.2.3
   - [ ] Steps to recreate: <br />
 	1. Post a comment and wait for Admin's approval.
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%209.37.59%20PM.png" width="800">
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%209.37.59%20PM.png" width="800"> <br/>
 	2. Once authenticated, user can then insert XSS into a reply that will execute upon loading the page.
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%209.49.35%20PM.png" width="800">
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%209.57.17%20PM.png" width="800">
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%209.49.35%20PM.png" width="800"> 
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%209.57.17%20PM.png" width="800"> <br/>
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/changeset/33359) <br /><br />
  
@@ -29,7 +29,7 @@ Time spent: 8 hours spent in total
     - Fixed in version: 4.7.5
   - [ ] Steps to recreate: <br />
 	1. Download a large media file. Here I simply created a large dummy file in Terminal.
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/File%20too%20large/Screen%20Shot%202019-11-08%20at%2012.26.35%20AM.png" width="800">
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/File%20too%20large/Screen%20Shot%202019-11-08%20at%2012.26.35%20AM.png" width="800"> <br/>
 	2. Rename the file as a picture and insert the script before the extension.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/File%20too%20large/Screen%20Shot%202019-11-08%20at%2012.24.07%20AM.png" width="800">
 	3. Open your browser to http://wpdistillery.vm/wp-admin/media-new.php and upload the file.
@@ -47,9 +47,9 @@ Time spent: 8 hours spent in total
   - [ ] Steps to recreate: <br />
 	1. Retrieve doser.py script from the GitHub repository: https://github.com/quitten/doser.py <br />
 	2. Open Terminal and execute the script to flood WPDistillery.vm with GET requests.
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/DOS/Screen%20Shot%202019-11-07%20at%207.19.37%20PM.png" width="800">
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/DOS/Screen%20Shot%202019-11-07%20at%207.19.37%20PM.png" width="800"> <br/>
 	3. WPDistillery.vm fails to load due to the Denial of Service attack. Only upon shutting down the VM and restarting 		will the page be accessible.
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/DOS/Screen%20Shot%202019-11-07%20at%207.19.07%20PM.png" width="800">
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/DOS/Screen%20Shot%202019-11-07%20at%207.19.07%20PM.png" width="800"> <br/>
   - [ ] Affected source code:
     - [Link 1]( https://www.exploit-db.com/exploits/43968) <br /><br />
     
@@ -63,10 +63,10 @@ Time spent: 8 hours spent in total
   - [ ] Steps to recreate: <br />
 	1. Create a new post in Text mode. <br />
 	2. Insert a malicious script and post.
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Shortcode%20Tags/Screen%20Shot%202019-11-07%20at%2011.21.03%20PM.png">
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Shortcode%20Tags/Screen%20Shot%202019-11-07%20at%2011.21.03%20PM.png"> <br/>
 	3. The code will pop up when a user hovers over.
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Shortcode%20Tags/Screen%20Shot%202019-11-07%20at%2011.21.42%20PM.png" width="800">
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Shortcode%20Tags/Screen%20Shot%202019-11-07%20at%2011.21.49%20PM.png" width="800">
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Shortcode%20Tags/Screen%20Shot%202019-11-07%20at%2011.21.42%20PM.png" width="800"> <br/>
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Shortcode%20Tags/Screen%20Shot%202019-11-07%20at%2011.21.49%20PM.png" width="800"> <br/>
   - [ ] Affected source code:
     - [Link 1]( https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8) <br /><br />
     
@@ -82,9 +82,9 @@ Time spent: 8 hours spent in total
 	[embed src='https://www.youtube.com/embed/du-TY1GUFGk'][/embed] <br />
 	2. Insert an XSS script before before the end of the code.
 	[embed src='https://www.youtube.com/embed/du-TY1GUFGk\x3csvg onload=alert("hax")\x3e'][/embed]
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Youtube%20Embeds/Screen%20Shot%202019-11-07%20at%2010.07.45%20PM.png" width="800">
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Youtube%20Embeds/Screen%20Shot%202019-11-07%20at%2010.07.45%20PM.png" width="800"> <br/>
 	3. The script will load when viewing the post.
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Youtube%20Embeds/Screen%20Shot%202019-11-07%20at%2010.08.22%20PM.png" width="800">
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Youtube%20Embeds/Screen%20Shot%202019-11-07%20at%2010.08.22%20PM.png" width="800"> <br/>
   - [ ] Affected source code:
     - [Link 1]( https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8) 
 
