@@ -6,10 +6,10 @@ Time spent: 8 hours spent in total
 
 ## Setup
 
-- VirtualBox
-- Kali Linux
-- WPDistillery
-- WPScan
+- VirtualBox - Virtual machine manager.
+- Kali Linux - Attack OS of choice.
+- WPDistillery - Creating a locally hosted Wordpress site.
+- WPScan - Vulnerability scanner.
 
 
 ## Pentesting Report
