@@ -11,8 +11,6 @@ Time spent: 8 hours spent in total
     - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: 
-  <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: <br />
 	1. Post a comment and wait for Admin's approval.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/XSS/Screen%20Shot%202019-10-31%20at%209.37.59%20PM.png" width="800">
@@ -29,8 +27,6 @@ Time spent: 8 hours spent in total
     - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.7.2
     - Fixed in version: 4.7.5
-  - [ ] GIF Walkthrough: : 
-  <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: <br />
 	1. Create a large dummy file in terminal.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/File%20too%20large/Screen%20Shot%202019-11-08%20at%2012.26.35%20AM.png" width="800">
@@ -48,8 +44,6 @@ Time spent: 8 hours spent in total
     - Vulnerability types: Denial of Service Overflow
     - Tested in version: 4.2
     - Fixed in version: 4.9.3
-  - [ ] GIF Walkthrough: 
-  <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: <br />
 	1. Retrieve doser.py script from the GitHub repository: https://github.com/quitten/doser.py <br />
 	2. Open terminal and execute the script to flood WPDistillery.vm with GET requests.
@@ -66,8 +60,6 @@ Time spent: 8 hours spent in total
     - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.2
     - Fixed in version: 4.3.1
-  - [ ] GIF Walkthrough:
-  <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: <br />
 	1. Create a new post in Text mode. <br />
 	2. Insert a malicious script and post.
@@ -85,8 +77,6 @@ Time spent: 8 hours spent in total
     - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.2
     - Fixed in version: 4.7.3
-  - [ ] GIF Walkthrough: 
-  <img src="https://github.com/leveewasbry/WordPress-PT/blob/master/giphy.gif" width="200">
   - [ ] Steps to recreate: <br />
 	1. In a post or comment, paste a YouTube URL with an embed code.
 	[embed src='https://www.youtube.com/embed/du-TY1GUFGk'][/embed] <br />
