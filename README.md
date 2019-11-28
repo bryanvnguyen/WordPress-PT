@@ -28,7 +28,7 @@ Time spent: 8 hours spent in total
     - Tested in version: 4.7.2
     - Fixed in version: 4.7.5
   - [ ] Steps to recreate: <br />
-	1. Create a large dummy file in terminal.
+	1. Download a large media file. Here I simply created a large dummy file in Terminal.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/File%20too%20large/Screen%20Shot%202019-11-08%20at%2012.26.35%20AM.png" width="800">
 	2. Rename the file as a picture and insert the script before the extension.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/File%20too%20large/Screen%20Shot%202019-11-08%20at%2012.24.07%20AM.png" width="800">
@@ -46,7 +46,7 @@ Time spent: 8 hours spent in total
     - Fixed in version: 4.9.3
   - [ ] Steps to recreate: <br />
 	1. Retrieve doser.py script from the GitHub repository: https://github.com/quitten/doser.py <br />
-	2. Open terminal and execute the script to flood WPDistillery.vm with GET requests.
+	2. Open Terminal and execute the script to flood WPDistillery.vm with GET requests.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/DOS/Screen%20Shot%202019-11-07%20at%207.19.37%20PM.png" width="800">
 	3. WPDistillery.vm fails to load due to the Denial of Service attack. Only upon shutting down the VM and restarting 		will the page be accessible.
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/DOS/Screen%20Shot%202019-11-07%20at%207.19.07%20PM.png" width="800">
