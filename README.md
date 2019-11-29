@@ -14,7 +14,24 @@ Time spent: 8 hours spent in total
 
 ## Pentesting Report
 
-# 1. CVE-2015-5622 - Cross-Site Scripting
+
+# 1. CVE-2018-6390 - Denial Of Service Overflow
+  - [ ] Summary: Exploiting a flaw in WordPress's loading script causes a denial of service by overloading the website with requests.
+    - Vulnerability types: Denial of Service Overflow
+    - Tested in version: 4.2
+    - Fixed in version: 4.9.3
+  - [ ] Steps to recreate: <br />
+	1. Retrieve doser.py script from the GitHub repository: https://github.com/quitten/doser.py <br />
+	2. Open Terminal and execute the script to flood WPDistillery.vm with GET requests.
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/DOS/Screen%20Shot%202019-11-07%20at%207.19.37%20PM.png" width="800"> <br />
+	3. WPDistillery.vm fails to load due to the Denial of Service attack. Only upon shutting down the VM and restarting 		will the page be accessible.
+	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/DOS/Screen%20Shot%202019-11-07%20at%207.19.07%20PM.png" width="800"> <b r/>
+  - [ ] Affected source code:
+    - [Link 1]( https://www.exploit-db.com/exploits/43968) <br /><br />
+    
+    
+
+# 2. CVE-2015-5622 - Cross-Site Scripting
   - [ ] Summary: Once a user's comment is authenticated by the admin, the user can then insert XSS via the reply box.
     - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.2
@@ -30,7 +47,7 @@ Time spent: 8 hours spent in total
  
     
 
-# 2. CVE-2017-9061 - Error in Upload when file's too large
+# 3. CVE-2017-9061 - Error in Upload when file's too large
   - [ ] Summary: A XSS vulnerability exists when attempting to upload very large files, because the error message does not properly restrict presentation of the filename.
     - Vulnerability types: Cross Site Scripting
     - Tested in version: 4.7.2
@@ -44,22 +61,6 @@ Time spent: 8 hours spent in total
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/File%20too%20large/Screen%20Shot%202019-11-08%20at%2012.24.14%20AM.png" width="800"> <br />
   - [ ] Affected source code:
     - [Link 1]( https://hackerone.com/reports/203515) <br /><br />
-    
-    
-
-# 3. CVE-2018-6390 - Denial Of Service Overflow
-  - [ ] Summary: Exploiting a flaw in WordPress's loading script causes a denial of service by overloading the website with requests.
-    - Vulnerability types: Denial of Service Overflow
-    - Tested in version: 4.2
-    - Fixed in version: 4.9.3
-  - [ ] Steps to recreate: <br />
-	1. Retrieve doser.py script from the GitHub repository: https://github.com/quitten/doser.py <br />
-	2. Open Terminal and execute the script to flood WPDistillery.vm with GET requests.
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/DOS/Screen%20Shot%202019-11-07%20at%207.19.37%20PM.png" width="800"> <br />
-	3. WPDistillery.vm fails to load due to the Denial of Service attack. Only upon shutting down the VM and restarting 		will the page be accessible.
-	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/DOS/Screen%20Shot%202019-11-07%20at%207.19.07%20PM.png" width="800"> <b r/>
-  - [ ] Affected source code:
-    - [Link 1]( https://www.exploit-db.com/exploits/43968) <br /><br />
     
 
 
@@ -95,6 +96,9 @@ Time spent: 8 hours spent in total
 	<img src="https://github.com/leveewasbry/WordPress-PT/blob/master/WP%20Github%20writeup/Youtube%20Embeds/Screen%20Shot%202019-11-07%20at%2010.08.22%20PM.png" width="800"> <br />
   - [ ] Affected source code:
     - [Link 1]( https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8) 
+
+
+
 
 ## Assets
 
